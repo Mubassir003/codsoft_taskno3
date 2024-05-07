@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccb7b7;
+}
+#calculator {
+    width: 400px;
+    background: #10781a;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+button:hover {
+    cursor: pointer;
+    color:blue;
+    font-size:larger;
+    background-color: aqua;
+}
+.button-row {
+    display: flex;
+    gap: 10px;
+    
+   
+    background-color: rgb(99, 29, 29);
+}
